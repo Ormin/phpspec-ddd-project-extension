@@ -1,0 +1,18 @@
+{
+    "name": "ormin/phpspec-ddd-project-extension",
+    "description": "PHPSpec helper classes for utilizing DDD and commonly used patterns around it",
+    "require": {
+        "phpspec/phpspec": "^2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandru Pitis",
+            "email": "alexandru.pitis@blablacar.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"": "src/"}
+    },
+    "minimum-stability": "stable"
+}

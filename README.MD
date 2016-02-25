@@ -11,6 +11,13 @@ To install it, use Composer:
 $ composer require --dev ormin/phpspec-ddd-project-extension:dev-master
 ```
 
+Then in a `phpspec.yml` file in the root of your project, add the following:
+
+```yaml
+extensions:
+    - Ormin\DDDProjectExtension\DDDProjectExtension
+```
+
 You can use the matcher like this ( in example I used an imagined UserId object, but you might use whatever Value Object you want ):
 
 

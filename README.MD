@@ -11,7 +11,7 @@ To install it, use Composer:
 $ composer require --dev ormin/phpspec-ddd-project-extension:dev-master
 ```
 
-Then in a `phpspec.yml` file in the root of your project, add the following:
+Then in a `phpspec.yml` file of your project, add the following:
 
 ```yaml
 extensions:
